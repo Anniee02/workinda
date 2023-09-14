@@ -1,0 +1,108 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #FFD700;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+/* styles.css */
+/* styles.css */
+/* ... (previous styles) */
+
+/* Header styles */
+header {
+    padding: 20px 0;
+    background-color: #000000; /* Permanent background color */
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Adjust to your desired height */
+    opacity: 1;
+    background-color: #000000; /* Shown background color */
+}
+
+header.reveal .header-content {
+    background-color: #000000; /* No change in background color on scroll */
+}
+
+
+/* Add other styles as needed */
+
+
+
+/* Section styles */
+section {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    transition: transform 0.2s ease; /* Mouseover effect */
+    overflow: hidden;
+}
+
+section:hover {
+    background-color: #444; /* Color change on hover */
+    transform: scale(1.03); /* Slight enlargement on hover */
+}
+
+section h2 {
+    font-size: 24px;
+    color: #FFD700;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="number"], button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #444;
+    color: #000000;
+}
+
+button {
+    background-color: #FFD700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Hover effect */
+}
+
+button:hover {
+    background-color: #FF4500;
+    transform: scale(1.02); /* Slight enlargement on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #FFD700;
+}
